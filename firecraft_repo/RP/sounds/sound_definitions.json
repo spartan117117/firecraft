@@ -1,0 +1,29 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"sound.s_firework": {
+			"category": "hostile",
+			"min_distance": 1,
+			"max_distance": 30,
+			"sounds": [
+				{
+					"name": "sounds/fireworks/largeBlast1",
+					"load_on_low_memory": true,
+					"volume": 10
+				}
+			]
+		},
+		"sound.s_bengala": {
+			"category": "block",
+			"min_distance": 1,
+			"max_distance": 20,
+			"sounds": [
+				{
+					"name": "sounds/bengala0",
+					"load_on_low_memory": true,
+					"volume": 0.1
+				}
+			]
+		}
+	}
+}

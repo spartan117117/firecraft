@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "s:firework59"
+		},
+		"tags": [
+			"firecraft_table59"
+		],
+		"key": {
+			"G": {
+				"item": "gunpowder"
+			},
+			"S": {
+				"item": "paper"
+			}
+		},
+		"pattern": [
+			"GS"
+		],
+		"priority": 59,
+		"result": [
+			{
+				"item": "s:firework59"
+			}
+		]
+	}
+}

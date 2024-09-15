@@ -1,0 +1,2605 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.firework.default": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"firework": {
+					"rotation": {
+						"0.0": [
+							0,
+							"query.camera_rotation(1)",
+							0
+						]
+					}
+				}
+			}
+		},
+		"animation.firework.scale": {
+			"loop": true,
+			"animation_length": 7,
+			"bones": {
+				"firework": {
+					"scale": {
+						"7": [
+							4,
+							4,
+							4
+						],
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.4": [
+							2,
+							2,
+							2
+						]
+					}
+				}
+			}
+		},
+		"animation.firework.1a": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "1a"
+				}
+			}
+		},
+		"animation.firework.2a": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "2a"
+				}
+			}
+		},
+		"animation.firework.3a": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "3a"
+				}
+			}
+		},
+		"animation.firework.4a": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "4a"
+				}
+			}
+		},
+		"animation.firework.5a": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "5a"
+				}
+			}
+		},
+		"animation.firework.6a": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "6a"
+				}
+			}
+		},
+		"animation.firework.7a": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "7a"
+				}
+			}
+		},
+		"animation.firework.8a": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "8a"
+				}
+			}
+		},
+		"animation.firework.9a": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "9a"
+				}
+			}
+		},
+		"animation.firework.10a": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "10a"
+				}
+			}
+		},
+		"animation.firework.11a": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "11a"
+				}
+			}
+		},
+		"animation.firework.12a": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "12a"
+				}
+			}
+		},
+		"animation.firework.13a": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "13a"
+				}
+			}
+		},
+		"animation.firework.14a": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "14a"
+				}
+			}
+		},
+		"animation.firework.15a": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "15a"
+				}
+			}
+		},
+		"animation.firework.16a": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "16a"
+				}
+			}
+		},
+		"animation.firework.1b": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "1b"
+				}
+			}
+		},
+		"animation.firework.2b": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "2b"
+				}
+			}
+		},
+		"animation.firework.3b": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "3b"
+				}
+			}
+		},
+		"animation.firework.4b": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "4b"
+				}
+			}
+		},
+		"animation.firework.5b": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "5b"
+				}
+			}
+		},
+		"animation.firework.6b": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "6b"
+				}
+			}
+		},
+		"animation.firework.7b": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "7b"
+				}
+			}
+		},
+		"animation.firework.8b": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "8b"
+				}
+			}
+		},
+		"animation.firework.9b": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "9b"
+				}
+			}
+		},
+		"animation.firework.10b": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "10b"
+				}
+			}
+		},
+		"animation.firework.11b": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "11b"
+				}
+			}
+		},
+		"animation.firework.12b": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "12b"
+				}
+			}
+		},
+		"animation.firework.13b": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "13b"
+				}
+			}
+		},
+		"animation.firework.14b": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "14b"
+				}
+			}
+		},
+		"animation.firework.15b": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "15b"
+				}
+			}
+		},
+		"animation.firework.16b": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "16b"
+				}
+			}
+		},
+		"animation.firework.1c": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "1c"
+				}
+			}
+		},
+		"animation.firework.2c": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "2c"
+				}
+			}
+		},
+		"animation.firework.3c": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "3c"
+				}
+			}
+		},
+		"animation.firework.4c": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "4c"
+				}
+			}
+		},
+		"animation.firework.5c": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "5c"
+				}
+			}
+		},
+		"animation.firework.6c": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "6c"
+				}
+			}
+		},
+		"animation.firework.7c": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "7c"
+				}
+			}
+		},
+		"animation.firework.8c": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "8c"
+				}
+			}
+		},
+		"animation.firework.9c": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "9c"
+				}
+			}
+		},
+		"animation.firework.10c": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "10c"
+				}
+			}
+		},
+		"animation.firework.11c": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "11c"
+				}
+			}
+		},
+		"animation.firework.12c": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "12c"
+				}
+			}
+		},
+		"animation.firework.13c": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "13c"
+				}
+			}
+		},
+		"animation.firework.14c": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "14c"
+				}
+			}
+		},
+		"animation.firework.15c": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "15c"
+				}
+			}
+		},
+		"animation.firework.16c": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "16c"
+				}
+			}
+		},
+		"animation.firework.1d": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "1d"
+				}
+			}
+		},
+		"animation.firework.2d": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "2d"
+				}
+			}
+		},
+		"animation.firework.3d": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "3d"
+				}
+			}
+		},
+		"animation.firework.4d": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "4d"
+				}
+			}
+		},
+		"animation.firework.5d": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "5d"
+				}
+			}
+		},
+		"animation.firework.6d": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "6d"
+				}
+			}
+		},
+		"animation.firework.7d": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "7d"
+				}
+			}
+		},
+		"animation.firework.8d": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "8d"
+				}
+			}
+		},
+		"animation.firework.9d": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "9d"
+				}
+			}
+		},
+		"animation.firework.10d": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "10d"
+				}
+			}
+		},
+		"animation.firework.11d": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "11d"
+				}
+			}
+		},
+		"animation.firework.12d": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "12d"
+				}
+			}
+		},
+		"animation.firework.13d": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "13d"
+				}
+			}
+		},
+		"animation.firework.14d": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "14d"
+				}
+			}
+		},
+		"animation.firework.15d": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "15d"
+				}
+			}
+		},
+		"animation.firework.16d": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "16d"
+				}
+			}
+		},
+		"animation.firework.1e": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "1e"
+				}
+			}
+		},
+		"animation.firework.2e": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "2e"
+				}
+			}
+		},
+		"animation.firework.3e": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "3e"
+				}
+			}
+		},
+		"animation.firework.4e": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "4e"
+				}
+			}
+		},
+		"animation.firework.5e": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "5e"
+				}
+			}
+		},
+		"animation.firework.6e": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "6e"
+				}
+			}
+		},
+		"animation.firework.7e": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "7e"
+				}
+			}
+		},
+		"animation.firework.8e": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "8e"
+				}
+			}
+		},
+		"animation.firework.9e": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "9e"
+				}
+			}
+		},
+		"animation.firework.10e": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "10e"
+				}
+			}
+		},
+		"animation.firework.11e": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "11e"
+				}
+			}
+		},
+		"animation.firework.12e": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "12e"
+				}
+			}
+		},
+		"animation.firework.13e": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "13e"
+				}
+			}
+		},
+		"animation.firework.14e": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "14e"
+				}
+			}
+		},
+		"animation.firework.15e": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "15e"
+				}
+			}
+		},
+		"animation.firework.16e": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "16e"
+				}
+			}
+		},
+		"animation.firework.1f": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "1f"
+				}
+			}
+		},
+		"animation.firework.2f": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "2f"
+				}
+			}
+		},
+		"animation.firework.3f": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "3f"
+				}
+			}
+		},
+		"animation.firework.4f": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "4f"
+				}
+			}
+		},
+		"animation.firework.5f": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "5f"
+				}
+			}
+		},
+		"animation.firework.6f": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "6f"
+				}
+			}
+		},
+		"animation.firework.7f": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "7f"
+				}
+			}
+		},
+		"animation.firework.8f": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "8f"
+				}
+			}
+		},
+		"animation.firework.9f": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "9f"
+				}
+			}
+		},
+		"animation.firework.10f": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "10f"
+				}
+			}
+		},
+		"animation.firework.11f": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "11f"
+				}
+			}
+		},
+		"animation.firework.12f": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "12f"
+				}
+			}
+		},
+		"animation.firework.13f": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "13f"
+				}
+			}
+		},
+		"animation.firework.14f": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "14f"
+				}
+			}
+		},
+		"animation.firework.15f": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "15f"
+				}
+			}
+		},
+		"animation.firework.16f": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "16f"
+				}
+			}
+		},
+		"animation.firework.1g": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "1g"
+				}
+			}
+		},
+		"animation.firework.2g": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "2g"
+				}
+			}
+		},
+		"animation.firework.3g": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "3g"
+				}
+			}
+		},
+		"animation.firework.4g": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "4g"
+				}
+			}
+		},
+		"animation.firework.5g": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "5g"
+				}
+			}
+		},
+		"animation.firework.6g": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "6g"
+				}
+			}
+		},
+		"animation.firework.7g": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "7g"
+				}
+			}
+		},
+		"animation.firework.8g": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "8g"
+				}
+			}
+		},
+		"animation.firework.9g": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "9g"
+				}
+			}
+		},
+		"animation.firework.10g": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "10g"
+				}
+			}
+		},
+		"animation.firework.11g": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "11g"
+				}
+			}
+		},
+		"animation.firework.12g": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "12g"
+				}
+			}
+		},
+		"animation.firework.13g": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "13g"
+				}
+			}
+		},
+		"animation.firework.14g": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "14g"
+				}
+			}
+		},
+		"animation.firework.15g": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "15g"
+				}
+			}
+		},
+		"animation.firework.16g": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "16g"
+				}
+			}
+		},
+		"animation.firework.1h": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "1h"
+				}
+			}
+		},
+		"animation.firework.2h": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "2h"
+				}
+			}
+		},
+		"animation.firework.3h": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "3h"
+				}
+			}
+		},
+		"animation.firework.4h": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "4h"
+				}
+			}
+		},
+		"animation.firework.5h": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "5h"
+				}
+			}
+		},
+		"animation.firework.6h": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "6h"
+				}
+			}
+		},
+		"animation.firework.7h": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "7h"
+				}
+			}
+		},
+		"animation.firework.8h": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "8h"
+				}
+			}
+		},
+		"animation.firework.9h": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "9h"
+				}
+			}
+		},
+		"animation.firework.10h": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "10h"
+				}
+			}
+		},
+		"animation.firework.11h": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "11h"
+				}
+			}
+		},
+		"animation.firework.12h": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "12h"
+				}
+			}
+		},
+		"animation.firework.13h": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "13h"
+				}
+			}
+		},
+		"animation.firework.14h": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "14h"
+				}
+			}
+		},
+		"animation.firework.15h": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "15h"
+				}
+			}
+		},
+		"animation.firework.16h": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "16h"
+				}
+			}
+		},
+		"animation.firework.1i": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "1i"
+				}
+			}
+		},
+		"animation.firework.2i": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "2i"
+				}
+			}
+		},
+		"animation.firework.3i": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "3i"
+				}
+			}
+		},
+		"animation.firework.4i": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "4i"
+				}
+			}
+		},
+		"animation.firework.5i": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "5i"
+				}
+			}
+		},
+		"animation.firework.6i": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "6i"
+				}
+			}
+		},
+		"animation.firework.7i": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "7i"
+				}
+			}
+		},
+		"animation.firework.8i": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "8i"
+				}
+			}
+		},
+		"animation.firework.9i": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "9i"
+				}
+			}
+		},
+		"animation.firework.10i": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "10i"
+				}
+			}
+		},
+		"animation.firework.11i": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "11i"
+				}
+			}
+		},
+		"animation.firework.12i": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "12i"
+				}
+			}
+		},
+		"animation.firework.13i": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "13i"
+				}
+			}
+		},
+		"animation.firework.14i": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "14i"
+				}
+			}
+		},
+		"animation.firework.15i": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "15i"
+				}
+			}
+		},
+		"animation.firework.16i": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "16i"
+				}
+			}
+		},
+		"animation.firework.1j": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "1j"
+				}
+			}
+		},
+		"animation.firework.2j": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "2j"
+				}
+			}
+		},
+		"animation.firework.3j": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "3j"
+				}
+			}
+		},
+		"animation.firework.4j": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "4j"
+				}
+			}
+		},
+		"animation.firework.5j": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "5j"
+				}
+			}
+		},
+		"animation.firework.6j": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "6j"
+				}
+			}
+		},
+		"animation.firework.7j": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "7j"
+				}
+			}
+		},
+		"animation.firework.8j": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "8j"
+				}
+			}
+		},
+		"animation.firework.9j": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "9j"
+				}
+			}
+		},
+		"animation.firework.10j": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "10j"
+				}
+			}
+		},
+		"animation.firework.11j": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "11j"
+				}
+			}
+		},
+		"animation.firework.12j": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "12j"
+				}
+			}
+		},
+		"animation.firework.13j": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "13j"
+				}
+			}
+		},
+		"animation.firework.14j": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "14j"
+				}
+			}
+		},
+		"animation.firework.15j": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "15j"
+				}
+			}
+		},
+		"animation.firework.16j": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "16j"
+				}
+			}
+		},
+		"animation.firework.1k": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "1k"
+				}
+			}
+		},
+		"animation.firework.2k": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "2k"
+				}
+			}
+		},
+		"animation.firework.3k": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "3k"
+				}
+			}
+		},
+		"animation.firework.4k": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "4k"
+				}
+			}
+		},
+		"animation.firework.5k": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "5k"
+				}
+			}
+		},
+		"animation.firework.6k": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "6k"
+				}
+			}
+		},
+		"animation.firework.7k": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "7k"
+				}
+			}
+		},
+		"animation.firework.8k": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "8k"
+				}
+			}
+		},
+		"animation.firework.9k": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "9k"
+				}
+			}
+		},
+		"animation.firework.10k": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "10k"
+				}
+			}
+		},
+		"animation.firework.11k": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "11k"
+				}
+			}
+		},
+		"animation.firework.12k": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "12k"
+				}
+			}
+		},
+		"animation.firework.13k": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "13k"
+				}
+			}
+		},
+		"animation.firework.14k": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "14k"
+				}
+			}
+		},
+		"animation.firework.15k": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "15k"
+				}
+			}
+		},
+		"animation.firework.16k": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "16k"
+				}
+			}
+		},
+		"animation.firework.1l": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "1l"
+				}
+			}
+		},
+		"animation.firework.2l": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "2l"
+				}
+			}
+		},
+		"animation.firework.3l": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "3l"
+				}
+			}
+		},
+		"animation.firework.4l": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "4l"
+				}
+			}
+		},
+		"animation.firework.5l": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "5l"
+				}
+			}
+		},
+		"animation.firework.6l": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "6l"
+				}
+			}
+		},
+		"animation.firework.7l": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "7l"
+				}
+			}
+		},
+		"animation.firework.8l": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "8l"
+				}
+			}
+		},
+		"animation.firework.9l": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "9l"
+				}
+			}
+		},
+		"animation.firework.10l": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "10l"
+				}
+			}
+		},
+		"animation.firework.11l": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "11l"
+				}
+			}
+		},
+		"animation.firework.12l": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "12l"
+				}
+			}
+		},
+		"animation.firework.13l": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "13l"
+				}
+			}
+		},
+		"animation.firework.14l": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "14l"
+				}
+			}
+		},
+		"animation.firework.15l": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "15l"
+				}
+			}
+		},
+		"animation.firework.16l": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "16l"
+				}
+			}
+		},
+		"animation.firework.1m": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "1m"
+				}
+			}
+		},
+		"animation.firework.2m": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "2m"
+				}
+			}
+		},
+		"animation.firework.3m": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "3m"
+				}
+			}
+		},
+		"animation.firework.4m": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "4m"
+				}
+			}
+		},
+		"animation.firework.5m": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "5m"
+				}
+			}
+		},
+		"animation.firework.6m": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "6m"
+				}
+			}
+		},
+		"animation.firework.7m": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "7m"
+				}
+			}
+		},
+		"animation.firework.8m": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "8m"
+				}
+			}
+		},
+		"animation.firework.9m": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "9m"
+				}
+			}
+		},
+		"animation.firework.10m": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "10m"
+				}
+			}
+		},
+		"animation.firework.11m": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "11m"
+				}
+			}
+		},
+		"animation.firework.12m": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "12m"
+				}
+			}
+		},
+		"animation.firework.13m": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "13m"
+				}
+			}
+		},
+		"animation.firework.14m": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "14m"
+				}
+			}
+		},
+		"animation.firework.15m": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "15m"
+				}
+			}
+		},
+		"animation.firework.16m": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "16m"
+				}
+			}
+		},
+		"animation.firework.1n": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "1n"
+				}
+			}
+		},
+		"animation.firework.2n": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "2n"
+				}
+			}
+		},
+		"animation.firework.3n": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "3n"
+				}
+			}
+		},
+		"animation.firework.4n": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "4n"
+				}
+			}
+		},
+		"animation.firework.5n": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "5n"
+				}
+			}
+		},
+		"animation.firework.6n": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "6n"
+				}
+			}
+		},
+		"animation.firework.7n": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "7n"
+				}
+			}
+		},
+		"animation.firework.8n": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "8n"
+				}
+			}
+		},
+		"animation.firework.9n": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "9n"
+				}
+			}
+		},
+		"animation.firework.10n": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "10n"
+				}
+			}
+		},
+		"animation.firework.11n": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "11n"
+				}
+			}
+		},
+		"animation.firework.12n": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "12n"
+				}
+			}
+		},
+		"animation.firework.13n": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "13n"
+				}
+			}
+		},
+		"animation.firework.14n": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "14n"
+				}
+			}
+		},
+		"animation.firework.15n": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "15n"
+				}
+			}
+		},
+		"animation.firework.16n": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "16n"
+				}
+			}
+		},
+		"animation.firework.1o": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "1o"
+				}
+			}
+		},
+		"animation.firework.2o": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "2o"
+				}
+			}
+		},
+		"animation.firework.3o": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "3o"
+				}
+			}
+		},
+		"animation.firework.4o": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "4o"
+				}
+			}
+		},
+		"animation.firework.5o": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "5o"
+				}
+			}
+		},
+		"animation.firework.6o": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "6o"
+				}
+			}
+		},
+		"animation.firework.7o": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "7o"
+				}
+			}
+		},
+		"animation.firework.8o": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "8o"
+				}
+			}
+		},
+		"animation.firework.9o": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "9o"
+				}
+			}
+		},
+		"animation.firework.10o": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "10o"
+				}
+			}
+		},
+		"animation.firework.11o": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "11o"
+				}
+			}
+		},
+		"animation.firework.12o": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "12o"
+				}
+			}
+		},
+		"animation.firework.13o": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "13o"
+				}
+			}
+		},
+		"animation.firework.14o": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "14o"
+				}
+			}
+		},
+		"animation.firework.15o": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "15o"
+				}
+			}
+		},
+		"animation.firework.16o": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "16o"
+				}
+			}
+		},
+		"animation.firework.1p": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "1p"
+				}
+			}
+		},
+		"animation.firework.2p": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "2p"
+				}
+			}
+		},
+		"animation.firework.3p": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "3p"
+				}
+			}
+		},
+		"animation.firework.4p": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "4p"
+				}
+			}
+		},
+		"animation.firework.5p": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "5p"
+				}
+			}
+		},
+		"animation.firework.6p": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "6p"
+				}
+			}
+		},
+		"animation.firework.7p": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "7p"
+				}
+			}
+		},
+		"animation.firework.8p": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "8p"
+				}
+			}
+		},
+		"animation.firework.9p": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "9p"
+				}
+			}
+		},
+		"animation.firework.10p": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "10p"
+				}
+			}
+		},
+		"animation.firework.11p": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "11p"
+				}
+			}
+		},
+		"animation.firework.12p": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "12p"
+				}
+			}
+		},
+		"animation.firework.13p": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "13p"
+				}
+			}
+		},
+		"animation.firework.14p": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "14p"
+				}
+			}
+		},
+		"animation.firework.15p": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "15p"
+				}
+			}
+		},
+		"animation.firework.16p": {
+			"loop": false,
+			"animation_length": 3.1,
+			"particle_effects": {
+				"0.1": {
+					"effect": "particle1",
+					"locator": "16p"
+				}
+			}
+		}
+	}
+}

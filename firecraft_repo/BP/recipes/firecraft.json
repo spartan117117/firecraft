@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "s:firecraft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"G": {
+				"item": "gunpowder"
+			},
+			"S": {
+				"item": "cobblestone"
+			}
+		},
+		"pattern": [
+			"GG",
+			"SS"
+		],
+		"result": [
+			{
+				"item": "s:firecraft"
+			}
+		]
+	}
+}

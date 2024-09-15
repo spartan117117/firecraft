@@ -1,0 +1,73 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "s:purple",
+			"menu_category": {
+				"category": "construction"
+			},
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": [
+						"minecraft:block_face"
+					]
+				}
+			}
+		},
+		"permutations": [
+			{
+				"components": {
+					"minecraft:geometry": "geometry.block_color0"
+				},
+				"condition": "q.block_state('minecraft:block_face')=='up'||q.block_state('minecraft:block_face')=='down'"
+			},
+			{
+				"components": {
+					"minecraft:geometry": "geometry.block_color1"
+				},
+				"condition": "q.block_state('minecraft:block_face')=='south'||q.block_state('minecraft:block_face')=='north'"
+			},
+			{
+				"components": {
+					"minecraft:geometry": "geometry.block_color2"
+				},
+				"condition": "q.block_state('minecraft:block_face')=='west'||q.block_state('minecraft:block_face')=='east'"
+			}
+		],
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "s_purple",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:destructible_by_mining": true,
+			"minecraft:light_dampening": 3,
+			"minecraft:light_emission": 1,
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			}
+		}
+	}
+}

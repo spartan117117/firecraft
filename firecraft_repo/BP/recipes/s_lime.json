@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "s:lime"
+		},
+		"tags": [
+			"firecraft_table"
+		],
+		"ingredients": [
+			{
+				"item": "bamboo",
+				"count": 1
+			},
+			{
+				"item": "lime_dye",
+				"count": 1
+			},
+			{
+				"item": "lead",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "s:lime",
+				"count": 1
+			}
+		]
+	}
+}

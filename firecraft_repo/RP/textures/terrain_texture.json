@@ -1,0 +1,113 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "fireworks",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"s_white": {
+			"textures": "textures/blocks/white"
+		},
+		"s_black": {
+			"textures": "textures/blocks/black"
+		},
+		"s_blue": {
+			"textures": "textures/blocks/blue"
+		},
+		"s_red": {
+			"textures": "textures/blocks/red"
+		},
+		"s_yellow": {
+			"textures": "textures/blocks/yellow"
+		},
+		"s_orange": {
+			"textures": "textures/blocks/orange"
+		},
+		"s_green": {
+			"textures": "textures/blocks/green"
+		},
+		"s_purple": {
+			"textures": "textures/blocks/purple"
+		},
+		"s_pink": {
+			"textures": "textures/blocks/pink"
+		},
+		"s_cyan": {
+			"textures": "textures/blocks/cyan"
+		},
+		"s_lime": {
+			"textures": "textures/blocks/lime"
+		},
+		"s_magenta": {
+			"textures": "textures/blocks/magenta"
+		},
+		"s_light_blue": {
+			"textures": "textures/blocks/light_blue"
+		},
+		"s_light_gray": {
+			"textures": "textures/blocks/light_gray"
+		},
+		"s_gray": {
+			"textures": "textures/blocks/gray"
+		},
+		"s_brown": {
+			"textures": "textures/blocks/brown"
+		},
+		"s_firecraft": {
+			"textures": "textures/blocks/firecraft"
+		},
+		"s_bengala": {
+			"textures": "textures/blocks/bengala"
+		},
+		"s_redstone_timer": {
+			"textures": "textures/blocks/redstone_timer/redstone_timer"
+		},
+		"s_redstone_timer_1": {
+			"textures": "textures/blocks/redstone_timer/1"
+		},
+		"s_redstone_timer_2": {
+			"textures": "textures/blocks/redstone_timer/2"
+		},
+		"s_redstone_timer_3": {
+			"textures": "textures/blocks/redstone_timer/3"
+		},
+		"s_redstone_timer_4": {
+			"textures": "textures/blocks/redstone_timer/4"
+		},
+		"s_redstone_timer_5": {
+			"textures": "textures/blocks/redstone_timer/5"
+		},
+		"s_redstone_timer_6": {
+			"textures": "textures/blocks/redstone_timer/6"
+		},
+		"s_redstone_timer_7": {
+			"textures": "textures/blocks/redstone_timer/7"
+		},
+		"s_redstone_timer_8": {
+			"textures": "textures/blocks/redstone_timer/8"
+		},
+		"s_redstone_timer_9": {
+			"textures": "textures/blocks/redstone_timer/9"
+		},
+		"s_redstone_timer_10": {
+			"textures": "textures/blocks/redstone_timer/10"
+		},
+		"s_redstone_timer_11": {
+			"textures": "textures/blocks/redstone_timer/11"
+		},
+		"s_redstone_timer_12": {
+			"textures": "textures/blocks/redstone_timer/12"
+		},
+		"s_redstone_timer_13": {
+			"textures": "textures/blocks/redstone_timer/13"
+		},
+		"s_redstone_timer_14": {
+			"textures": "textures/blocks/redstone_timer/14"
+		},
+		"s_redstone_timer_15": {
+			"textures": "textures/blocks/redstone_timer/15"
+		},
+		"bridge_newyear": {
+			"textures": "textures/blocks/newyear"
+		}
+	}
+}

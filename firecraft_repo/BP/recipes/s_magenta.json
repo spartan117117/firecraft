@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "s:magenta"
+		},
+		"tags": [
+			"firecraft_table"
+		],
+		"ingredients": [
+			{
+				"item": "bamboo",
+				"count": 1
+			},
+			{
+				"item": "magenta_dye",
+				"count": 1
+			},
+			{
+				"item": "lead",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "s:magenta",
+				"count": 1
+			}
+		]
+	}
+}

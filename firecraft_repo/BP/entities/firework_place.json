@@ -1,0 +1,680 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "s:firework_place",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"animations": {
+				"firework": "animation.firework_place"
+			},
+			"scripts": {
+				"animate": [
+					"firework"
+				]
+			},
+			"properties": {
+				"s:explosion": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				},
+				"s:forma": {
+					"type": "int",
+					"range": [
+						1,
+						61
+					],
+					"default": 1,
+					"client_sync": true
+				},
+				"s:color": {
+					"type": "int",
+					"default": 5,
+					"range": [
+						1,
+						16
+					],
+					"client_sync": true
+				}
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:health": {
+				"max": 200,
+				"value": 200
+			},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			},
+			"minecraft:collision_box": {
+				"height": 0.25,
+				"width": 0.25
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"impact_damage": {
+						"damage": 4
+					}
+				},
+				"power": 2,
+				"gravity": 0,
+				"offset": [
+					0,
+					0,
+					0
+				]
+			},
+			"minecraft:type_family": {
+				"family": [
+					"firework"
+				]
+			},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"event": "pcolor1",
+						"filters": [
+							{
+								"test": "in_block",
+								"value": "s:magenta",
+								"subject": "self",
+								"operator": "=="
+							}
+						]
+					},
+					{
+						"event": "pcolor2",
+						"filters": [
+							{
+								"test": "in_block",
+								"value": "s:black",
+								"subject": "self",
+								"operator": "=="
+							}
+						]
+					},
+					{
+						"event": "pcolor3",
+						"filters": [
+							{
+								"test": "in_block",
+								"value": "s:light_gray",
+								"subject": "self",
+								"operator": "=="
+							}
+						]
+					},
+					{
+						"event": "pcolor4",
+						"filters": [
+							{
+								"test": "in_block",
+								"value": "s:gray",
+								"subject": "self",
+								"operator": "=="
+							}
+						]
+					},
+					{
+						"event": "pcolor5",
+						"filters": [
+							{
+								"test": "in_block",
+								"value": "s:white",
+								"subject": "self",
+								"operator": "=="
+							}
+						]
+					},
+					{
+						"event": "pcolor6",
+						"filters": [
+							{
+								"test": "in_block",
+								"value": "s:red",
+								"subject": "self",
+								"operator": "=="
+							}
+						]
+					},
+					{
+						"event": "pcolor7",
+						"filters": [
+							{
+								"test": "in_block",
+								"value": "s:blue",
+								"subject": "self",
+								"operator": "=="
+							}
+						]
+					},
+					{
+						"event": "pcolor8",
+						"filters": [
+							{
+								"test": "in_block",
+								"value": "s:yellow",
+								"subject": "self",
+								"operator": "=="
+							}
+						]
+					},
+					{
+						"event": "pcolor9",
+						"filters": [
+							{
+								"test": "in_block",
+								"value": "s:orange",
+								"subject": "self",
+								"operator": "=="
+							}
+						]
+					},
+					{
+						"event": "pcolor10",
+						"filters": [
+							{
+								"test": "in_block",
+								"value": "s:green",
+								"subject": "self",
+								"operator": "=="
+							}
+						]
+					},
+					{
+						"event": "pcolor11",
+						"filters": [
+							{
+								"test": "in_block",
+								"value": "s:purple",
+								"subject": "self",
+								"operator": "=="
+							}
+						]
+					},
+					{
+						"event": "pcolor12",
+						"filters": [
+							{
+								"test": "in_block",
+								"value": "s:light_blue",
+								"subject": "self",
+								"operator": "=="
+							}
+						]
+					},
+					{
+						"event": "pcolor13",
+						"filters": [
+							{
+								"test": "in_block",
+								"value": "s:lime",
+								"subject": "self",
+								"operator": "=="
+							}
+						]
+					},
+					{
+						"event": "pcolor14",
+						"filters": [
+							{
+								"test": "in_block",
+								"value": "s:cyan",
+								"subject": "self",
+								"operator": "=="
+							}
+						]
+					},
+					{
+						"event": "pcolor15",
+						"filters": [
+							{
+								"test": "in_block",
+								"value": "s:pink",
+								"subject": "self",
+								"operator": "=="
+							}
+						]
+					},
+					{
+						"event": "pcolor16",
+						"filters": [
+							{
+								"test": "in_block",
+								"value": "s:brown",
+								"subject": "self",
+								"operator": "=="
+							}
+						]
+					}
+				]
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"queue_command": {
+					"command": [
+						"playsound firework.launch @a[r=35]"
+					]
+				}
+			},
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"explosion": {
+				"set_property": {
+					"s:explosion": true
+				}
+			},
+			"pcolor1": {
+				"set_property": {
+					"s:color": 1
+				}
+			},
+			"pcolor2": {
+				"set_property": {
+					"s:color": 2
+				}
+			},
+			"pcolor3": {
+				"set_property": {
+					"s:color": 3
+				}
+			},
+			"pcolor4": {
+				"set_property": {
+					"s:color": 4
+				}
+			},
+			"pcolor5": {
+				"set_property": {
+					"s:color": 5
+				}
+			},
+			"pcolor6": {
+				"set_property": {
+					"s:color": 6
+				}
+			},
+			"pcolor7": {
+				"set_property": {
+					"s:color": 7
+				}
+			},
+			"pcolor8": {
+				"set_property": {
+					"s:color": 8
+				}
+			},
+			"pcolor9": {
+				"set_property": {
+					"s:color": 9
+				}
+			},
+			"pcolor10": {
+				"set_property": {
+					"s:color": 10
+				}
+			},
+			"pcolor11": {
+				"set_property": {
+					"s:color": 11
+				}
+			},
+			"pcolor12": {
+				"set_property": {
+					"s:color": 12
+				}
+			},
+			"pcolor13": {
+				"set_property": {
+					"s:color": 13
+				}
+			},
+			"pcolor14": {
+				"set_property": {
+					"s:color": 14
+				}
+			},
+			"pcolor15": {
+				"set_property": {
+					"s:color": 15
+				}
+			},
+			"pcolor16": {
+				"set_property": {
+					"s:color": 16
+				}
+			},
+			"forma1": {
+				"set_property": {
+					"s:forma": 1
+				}
+			},
+			"forma2": {
+				"set_property": {
+					"s:forma": 2
+				}
+			},
+			"forma3": {
+				"set_property": {
+					"s:forma": 3
+				}
+			},
+			"forma4": {
+				"set_property": {
+					"s:forma": 4
+				}
+			},
+			"forma5": {
+				"set_property": {
+					"s:forma": 5
+				}
+			},
+			"forma6": {
+				"set_property": {
+					"s:forma": 6
+				}
+			},
+			"forma7": {
+				"set_property": {
+					"s:forma": 7
+				}
+			},
+			"forma8": {
+				"set_property": {
+					"s:forma": 8
+				}
+			},
+			"forma9": {
+				"set_property": {
+					"s:forma": 9
+				}
+			},
+			"forma10": {
+				"set_property": {
+					"s:forma": 10
+				}
+			},
+			"forma11": {
+				"set_property": {
+					"s:forma": 11
+				}
+			},
+			"forma12": {
+				"set_property": {
+					"s:forma": 12
+				}
+			},
+			"forma13": {
+				"set_property": {
+					"s:forma": 13
+				}
+			},
+			"forma14": {
+				"set_property": {
+					"s:forma": 14
+				}
+			},
+			"forma15": {
+				"set_property": {
+					"s:forma": 15
+				}
+			},
+			"forma16": {
+				"set_property": {
+					"s:forma": 16
+				}
+			},
+			"forma17": {
+				"set_property": {
+					"s:forma": 17
+				}
+			},
+			"forma18": {
+				"set_property": {
+					"s:forma": 18
+				}
+			},
+			"forma19": {
+				"set_property": {
+					"s:forma": 19
+				}
+			},
+			"forma20": {
+				"set_property": {
+					"s:forma": 20
+				}
+			},
+			"forma21": {
+				"set_property": {
+					"s:forma": 21
+				}
+			},
+			"forma22": {
+				"set_property": {
+					"s:forma": 22
+				}
+			},
+			"forma23": {
+				"set_property": {
+					"s:forma": 23
+				}
+			},
+			"forma24": {
+				"set_property": {
+					"s:forma": 24
+				}
+			},
+			"forma25": {
+				"set_property": {
+					"s:forma": 25
+				}
+			},
+			"forma26": {
+				"set_property": {
+					"s:forma": 26
+				}
+			},
+			"forma27": {
+				"set_property": {
+					"s:forma": 27
+				}
+			},
+			"forma28": {
+				"set_property": {
+					"s:forma": 28
+				}
+			},
+			"forma29": {
+				"set_property": {
+					"s:forma": 29
+				}
+			},
+			"forma30": {
+				"set_property": {
+					"s:forma": 30
+				}
+			},
+			"forma31": {
+				"set_property": {
+					"s:forma": 31
+				}
+			},
+			"forma32": {
+				"set_property": {
+					"s:forma": 32
+				}
+			},
+			"forma33": {
+				"set_property": {
+					"s:forma": 33
+				}
+			},
+			"forma34": {
+				"set_property": {
+					"s:forma": 34
+				}
+			},
+			"forma35": {
+				"set_property": {
+					"s:forma": 35
+				}
+			},
+			"forma36": {
+				"set_property": {
+					"s:forma": 36
+				}
+			},
+			"forma37": {
+				"set_property": {
+					"s:forma": 37
+				}
+			},
+			"forma38": {
+				"set_property": {
+					"s:forma": 38
+				}
+			},
+			"forma39": {
+				"set_property": {
+					"s:forma": 39
+				}
+			},
+			"forma40": {
+				"set_property": {
+					"s:forma": 40
+				}
+			},
+			"forma41": {
+				"set_property": {
+					"s:forma": 41
+				}
+			},
+			"forma42": {
+				"set_property": {
+					"s:forma": 42
+				}
+			},
+			"forma43": {
+				"set_property": {
+					"s:forma": 43
+				}
+			},
+			"forma44": {
+				"set_property": {
+					"s:forma": 44
+				}
+			},
+			"forma45": {
+				"set_property": {
+					"s:forma": 45
+				}
+			},
+			"forma46": {
+				"set_property": {
+					"s:forma": 46
+				}
+			},
+			"forma47": {
+				"set_property": {
+					"s:forma": 47
+				}
+			},
+			"forma48": {
+				"set_property": {
+					"s:forma": 48
+				}
+			},
+			"forma49": {
+				"set_property": {
+					"s:forma": 49
+				}
+			},
+			"forma50": {
+				"set_property": {
+					"s:forma": 50
+				}
+			},
+			"forma51": {
+				"set_property": {
+					"s:forma": 51
+				}
+			},
+			"forma52": {
+				"set_property": {
+					"s:forma": 52
+				}
+			},
+			"forma53": {
+				"set_property": {
+					"s:forma": 53
+				}
+			},
+			"forma54": {
+				"set_property": {
+					"s:forma": 54
+				}
+			},
+			"forma55": {
+				"set_property": {
+					"s:forma": 55
+				}
+			},
+			"forma56": {
+				"set_property": {
+					"s:forma": 56
+				}
+			},
+			"forma57": {
+				"set_property": {
+					"s:forma": 57
+				}
+			},
+			"forma58": {
+				"set_property": {
+					"s:forma": 58
+				}
+			},
+			"forma59": {
+				"set_property": {
+					"s:forma": 59
+				}
+			},
+			"forma60": {
+				"set_property": {
+					"s:forma": 60
+				}
+			},
+			"forma61": {
+				"set_property": {
+					"s:forma": 61
+				}
+			}
+		}
+	}
+}

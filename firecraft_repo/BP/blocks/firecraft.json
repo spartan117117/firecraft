@@ -1,0 +1,175 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "s:firecraft",
+			"menu_category": {
+				"category": "construction"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					],
+					"y_rotation_offset": 180
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							-90,
+							0
+						]
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:geometry": "geometry.firecraft",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "s_firecraft",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:crafting_table": {
+				"crafting_tags": [
+					"firecraft_table0",
+					"firecraft_table1",
+					"firecraft_table2",
+					"firecraft_table3",
+					"firecraft_table4",
+					"firecraft_table5",
+					"firecraft_table6",
+					"firecraft_table7",
+					"firecraft_table8",
+					"firecraft_table9",
+					"firecraft_table10",
+					"firecraft_table11",
+					"firecraft_table12",
+					"firecraft_table13",
+					"firecraft_table14",
+					"firecraft_table15",
+					"firecraft_table16",
+					"firecraft_table17",
+					"firecraft_table18",
+					"firecraft_table19",
+					"firecraft_table20",
+					"firecraft_table21",
+					"firecraft_table22",
+					"firecraft_table23",
+					"firecraft_table24",
+					"firecraft_table25",
+					"firecraft_table26",
+					"firecraft_table27",
+					"firecraft_table28",
+					"firecraft_table29",
+					"firecraft_table30",
+					"firecraft_table31",
+					"firecraft_table32",
+					"firecraft_table33",
+					"firecraft_table34",
+					"firecraft_table35",
+					"firecraft_table36",
+					"firecraft_table37",
+					"firecraft_table38",
+					"firecraft_table39",
+					"firecraft_table40",
+					"firecraft_table41",
+					"firecraft_table42",
+					"firecraft_table43",
+					"firecraft_table44",
+					"firecraft_table45",
+					"firecraft_table46",
+					"firecraft_table47",
+					"firecraft_table48",
+					"firecraft_table49",
+					"firecraft_table50",
+					"firecraft_table51",
+					"firecraft_table52",
+					"firecraft_table53",
+					"firecraft_table54",
+					"firecraft_table55",
+					"firecraft_table56",
+					"firecraft_table57",
+					"firecraft_table58",
+					"firecraft_table59",
+					"firecraft_table60",
+					"firecraft_table61",
+					"firecraft_table62",
+					"firecraft_table63"
+				],
+				"table_name": "translate.text.firework_table",
+				"grid_size": 3
+			},
+			"minecraft:destructible_by_mining": true,
+			"minecraft:light_dampening": 0,
+			"minecraft:light_emission": 0,
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			}
+		}
+	}
+}

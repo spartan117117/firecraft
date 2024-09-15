@@ -1,0 +1,198 @@
+{
+	"resource_pack_name": "FIRECRAFT",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"new_year": {
+			"textures": "textures/items/especial/newyear"
+		},
+		"hearth_line": {
+			"textures": "textures/items/especial/hearth_line"
+		},
+		"hearth_explosion": {
+			"textures": "textures/items/especial/hearth_explosion"
+		},
+		"s_firework_1": {
+			"textures": "textures/items/firework_1"
+		},
+		"s_firework_2": {
+			"textures": "textures/items/firework_2"
+		},
+		"s_firework_3": {
+			"textures": "textures/items/firework_3"
+		},
+		"s_firework_4": {
+			"textures": "textures/items/firework_4"
+		},
+		"s_firework_5": {
+			"textures": "textures/items/firework_5"
+		},
+		"s_firework_6": {
+			"textures": "textures/items/firework_6"
+		},
+		"s_firework_7": {
+			"textures": "textures/items/firework_7"
+		},
+		"s_firework_8": {
+			"textures": "textures/items/firework_8"
+		},
+		"s_firework_9": {
+			"textures": "textures/items/firework_9"
+		},
+		"s_firework_10": {
+			"textures": "textures/items/firework_10"
+		},
+		"s_firework_11": {
+			"textures": "textures/items/firework_11"
+		},
+		"s_firework_12": {
+			"textures": "textures/items/firework_12"
+		},
+		"s_firework_13": {
+			"textures": "textures/items/firework_13"
+		},
+		"s_firework_14": {
+			"textures": "textures/items/firework_14"
+		},
+		"s_firework_15": {
+			"textures": "textures/items/firework_15"
+		},
+		"s_firework_16": {
+			"textures": "textures/items/firework_16"
+		},
+		"s_firework_17": {
+			"textures": "textures/items/firework_17"
+		},
+		"s_firework_18": {
+			"textures": "textures/items/firework_18"
+		},
+		"s_firework_19": {
+			"textures": "textures/items/firework_19"
+		},
+		"s_firework_20": {
+			"textures": "textures/items/firework_20"
+		},
+		"s_firework_21": {
+			"textures": "textures/items/firework_21"
+		},
+		"s_firework_22": {
+			"textures": "textures/items/firework_22"
+		},
+		"s_firework_23": {
+			"textures": "textures/items/firework_23"
+		},
+		"s_firework_24": {
+			"textures": "textures/items/firework_24"
+		},
+		"s_firework_25": {
+			"textures": "textures/items/firework_25"
+		},
+		"s_firework_26": {
+			"textures": "textures/items/firework_26"
+		},
+		"s_firework_27": {
+			"textures": "textures/items/firework_27"
+		},
+		"s_firework_28": {
+			"textures": "textures/items/firework_28"
+		},
+		"s_firework_29": {
+			"textures": "textures/items/firework_29"
+		},
+		"s_firework_30": {
+			"textures": "textures/items/firework_30"
+		},
+		"s_firework_31": {
+			"textures": "textures/items/firework_31"
+		},
+		"s_firework_32": {
+			"textures": "textures/items/firework_32"
+		},
+		"s_firework_33": {
+			"textures": "textures/items/firework_33"
+		},
+		"s_firework_34": {
+			"textures": "textures/items/firework_34"
+		},
+		"s_firework_35": {
+			"textures": "textures/items/firework_35"
+		},
+		"s_firework_36": {
+			"textures": "textures/items/firework_36"
+		},
+		"s_firework_37": {
+			"textures": "textures/items/firework_37"
+		},
+		"s_firework_38": {
+			"textures": "textures/items/firework_38"
+		},
+		"s_firework_39": {
+			"textures": "textures/items/firework_39"
+		},
+		"s_firework_40": {
+			"textures": "textures/items/firework_40"
+		},
+		"s_firework_41": {
+			"textures": "textures/items/firework_41"
+		},
+		"s_firework_42": {
+			"textures": "textures/items/firework_42"
+		},
+		"s_firework_43": {
+			"textures": "textures/items/firework_43"
+		},
+		"s_firework_44": {
+			"textures": "textures/items/firework_44"
+		},
+		"s_firework_45": {
+			"textures": "textures/items/firework_45"
+		},
+		"s_firework_46": {
+			"textures": "textures/items/firework_46"
+		},
+		"s_firework_47": {
+			"textures": "textures/items/firework_47"
+		},
+		"s_firework_48": {
+			"textures": "textures/items/firework_48"
+		},
+		"s_firework_49": {
+			"textures": "textures/items/firework_49"
+		},
+		"s_firework_50": {
+			"textures": "textures/items/firework_50"
+		},
+		"s_firework_51": {
+			"textures": "textures/items/firework_51"
+		},
+		"s_firework_52": {
+			"textures": "textures/items/firework_52"
+		},
+		"s_firework_53": {
+			"textures": "textures/items/firework_53"
+		},
+		"s_firework_54": {
+			"textures": "textures/items/firework_54"
+		},
+		"s_firework_55": {
+			"textures": "textures/items/firework_55"
+		},
+		"s_firework_56": {
+			"textures": "textures/items/firework_56"
+		},
+		"s_firework_57": {
+			"textures": "textures/items/firework_57"
+		},
+		"s_firework_58": {
+			"textures": "textures/items/firework_58"
+		},
+		"s_firework_59": {
+			"textures": "textures/items/firework_59"
+		},
+		"s_firework_60": {
+			"textures": "textures/items/firework_60"
+		},
+		"s_firework_61": {
+			"textures": "textures/items/firework_61"
+		}
+	}
+}

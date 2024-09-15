@@ -1,0 +1,44 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"spartan1171346"
+		]
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "4d2d606f-544c-4151-b2c5-8aa6fa804523",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "1fa89000-0e3c-4290-ab8e-03fffbb11c2d",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b2ad0a3c-92b8-4922-894e-eb7db9e57018",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
